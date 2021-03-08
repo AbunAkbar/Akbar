@@ -1,15 +1,9 @@
  import React, { Component } from 'react'
-import { Text, StyleSheet, View } from 'react-native'
+import CoreComponen from '../AKBARANDROID/CoreComponen' 
 
-export default class App extends Component {
-    render() {
-        return (
-            <View> 
-                <Text> Login </Text>
-            </View>
-        )
-    }
-}
+const app =() =>{
+ return <CoreComponen/>;
+};
+ export default App;
 
-const styles = StyleSheet.create({})
 
